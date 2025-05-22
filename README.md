@@ -10,16 +10,11 @@ It includes powerful performance mods (like Lithium, Sodium alternatives, C2ME, 
 - Designed for compatibility with servers and vanilla gameplay
 - Works great with VanillaTweaks custom resource packs
 
-## 📦 Modloader
-- Minecraft version: `1.xx.x`
-- Fabric Loader + Fabric API
-
 ## ❗ Bug Reports & Suggestions
 Use the [Issues tab](https://github.com/tuo-username/tuo-repo/issues) to report bugs or suggest features.
 
 ## 🔗 Links
 - [Modrinth Project](https://modrinth.com/modpack/your-modpack-id)
-- [Download via Modrinth App](https://modrinth.com/app)
 - [Mod List](MODLIST.md)
 
 ## 📜 License
