@@ -1,0 +1,102 @@
+---
+name: Bug report
+about: Create a bug report
+labels: 'bug'
+assignees: ''
+
+---
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please fill out the following information to help us understand and resolve the issue efficiently.
+
+  - type: input
+    id: version
+    attributes:
+      label: "Modpack Version"
+      description: "Which version of the modpack are you using?"
+      placeholder: "e.g. v1.2.3"
+    validations:
+      required: true
+
+  - type: textarea
+    id: describe-bug
+    attributes:
+      label: "Describe the bug"
+      description: "Provide a clear and concise description of the issue."
+      placeholder: "e.g. When I tried to launch the game, it crashed with exit code 1."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce"
+      description: "List the steps to reproduce the issue, in order."
+      placeholder: |
+        1. Launch the game
+        2. Select the world 'MyWorld'
+        3. Crash occurs after loading
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: "Expected behavior"
+      description: "What did you expect to happen instead?"
+      placeholder: "e.g. The game should load the world normally without crashing."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: "Operating System(s)"
+      description: "Which OS are you running the modpack on?"
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: cpu-arch
+    attributes:
+      label: "CPU Architecture"
+      description: "What is the architecture of your CPU?"
+      options:
+        - x86_64 (64-bit)
+        - ARM64
+        - Other
+
+  - type: input
+    id: gpu
+    attributes:
+      label: "GPU(s)"
+      description: "Which GPU(s) are you using?"
+      placeholder: "e.g. NVIDIA RTX 3050, Intel UHD Graphics 630"
+
+  - type: textarea
+    id: crash-report
+    attributes:
+      label: "Crash Report or Log (if available)"
+      description: "Paste a link to the crash log (e.g. from https://pastebin.com or https://mclo.gs) or include relevant snippets."
+      placeholder: "Paste link or log here"
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots"
+      description: "Drag and drop any relevant screenshots here."
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: "Additional context"
+      description: "Add any other information that may help us identify the problem."
+      placeholder: "e.g. This only happens after updating the modpack. Java version: 17, RAM allocated: 8GB"
