@@ -58,7 +58,7 @@ body:
     attributes:
       label: "🧪 Modpack Version"
       description: "Which version of the modpack were you using?"
-      placeholder: "Example: v1.3.0-pre2"
+      placeholder: "x.x.x"
     validations:
       required: true
 
