@@ -1,102 +1,108 @@
----
-name: Bug report
-about: Create a bug report
-labels: 'bug'
-assignees: ''
-
----
-
+name: "🐛 Bug Report"
+description: "Create a bug report to help us improve the modpack."
+title: "[Bug] "
+labels: ["bug"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to report a bug. Please fill out the following information to help us understand and resolve the issue efficiently.
-
-  - type: input
-    id: version
-    attributes:
-      label: "Modpack Version"
-      description: "Which version of the modpack are you using?"
-      placeholder: "e.g. v1.2.3"
-    validations:
-      required: true
-
   - type: textarea
-    id: describe-bug
+    id: description
     attributes:
       label: "Describe the bug"
-      description: "Provide a clear and concise description of the issue."
-      placeholder: "e.g. When I tried to launch the game, it crashed with exit code 1."
+      description: "Provide a clear and concise description of what the bug is."
+      placeholder: "e.g. When I tried to launch version x.x.x, the game crashed."
     validations:
       required: true
 
   - type: textarea
-    id: steps
+    id: reproduction-steps
     attributes:
-      label: "Steps to reproduce"
-      description: "List the steps to reproduce the issue, in order."
+      label: "Steps to Reproduce"
+      description: "Provide a numbered list of steps to reproduce the issue."
       placeholder: |
         1. Launch the game
-        2. Select the world 'MyWorld'
-        3. Crash occurs after loading
+        2. Click 'Play' on version x.x.x
+        3. Observe the crash
     validations:
       required: true
 
   - type: textarea
     id: expected-behavior
     attributes:
-      label: "Expected behavior"
-      description: "What did you expect to happen instead?"
-      placeholder: "e.g. The game should load the world normally without crashing."
+      label: "Expected Behavior"
+      description: "Describe what you expected to happen."
+      placeholder: "e.g. The game should launch and display the main menu."
     validations:
       required: true
-
-  - type: dropdown
-    id: os
-    attributes:
-      label: "Operating System(s)"
-      description: "Which OS are you running the modpack on?"
-      options:
-        - Windows
-        - macOS
-        - Linux
-        - Other
-    validations:
-      required: true
-
-  - type: dropdown
-    id: cpu-arch
-    attributes:
-      label: "CPU Architecture"
-      description: "What is the architecture of your CPU?"
-      options:
-        - x86_64 (64-bit)
-        - ARM64
-        - Other
-
-  - type: input
-    id: gpu
-    attributes:
-      label: "GPU(s)"
-      description: "Which GPU(s) are you using?"
-      placeholder: "e.g. NVIDIA RTX 3050, Intel UHD Graphics 630"
-
-  - type: textarea
-    id: crash-report
-    attributes:
-      label: "Crash Report or Log (if available)"
-      description: "Paste a link to the crash log (e.g. from https://pastebin.com or https://mclo.gs) or include relevant snippets."
-      placeholder: "Paste link or log here"
 
   - type: textarea
     id: screenshots
     attributes:
       label: "Screenshots"
-      description: "Drag and drop any relevant screenshots here."
+      description: "Upload any relevant screenshots (optional)."
+      placeholder: "Attach files by dragging and dropping them here."
+
+  - type: input
+    id: version
+    attributes:
+      label: "Modpack Version"
+      description: "Which version of the modpack were you using?"
+      placeholder: "e.g. v1.2.3"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: "Operating System(s)"
+      description: "Select the OS you're using."
+      multiple: true
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Other (please describe in 'Additional Context')
+    validations:
+      required: true
+
+  - type: dropdown
+    id: cpu-architecture
+    attributes:
+      label: "CPU Architecture(s)"
+      description: "Select your CPU architecture."
+      multiple: true
+      options:
+        - I don't know
+        - x86_64
+        - arm64/aarch64
+        - arm64 (Apple Silicon)
+        - armhf/arm32
+        - Intel processor
+        - AMD processor
+        - Apple CPU
+        - Other (please describe in 'Additional Context')
+
+  - type: dropdown
+    id: gpu
+    attributes:
+      label: "GPU(s)"
+      description: "Select your GPU or graphics solution."
+      multiple: true
+      options:
+        - I don't know
+        - No GPU
+        - NVIDIA GPU
+        - AMD GPU
+        - Intel GPU
+        - Other (please describe in 'Additional Context')
+
+  - type: input
+    id: crash-report
+    attributes:
+      label: "Relevant Crash Report"
+      description: "If a crash report was generated, upload it to https://mclo.gs and paste the link here."
 
   - type: textarea
     id: additional-context
     attributes:
-      label: "Additional context"
-      description: "Add any other information that may help us identify the problem."
-      placeholder: "e.g. This only happens after updating the modpack. Java version: 17, RAM allocated: 8GB"
+      label: "Additional Context"
+      description: "Add any other context about the problem here."
+      placeholder: "e.g. Java version, amount of allocated RAM, recent changes, etc."
