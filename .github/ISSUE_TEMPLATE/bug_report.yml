@@ -1,108 +1,118 @@
 name: "🐛 Bug Report"
-description: "Create a bug report to help us improve the modpack."
-title: "[Bug] "
+description: "Report a bug to help us improve the modpack."
+title: "[Bug] <short description>"
 labels: ["bug"]
 body:
-  - type: textarea
-    id: description
+  - type: markdown
     attributes:
-      label: "Describe the bug"
-      description: "Provide a clear and concise description of what the bug is."
-      placeholder: "e.g. When I tried to launch version x.x.x, the game crashed."
+      value: |
+        Please fill out this form as clearly and completely as possible.
+        This helps us identify and fix bugs faster. Thank you!
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: "📝 Bug Description"
+      description: "What happened? Describe the issue clearly and concisely."
+      placeholder: "Example: When launching version x.x.x, the game crashes after the loading screen."
     validations:
       required: true
 
   - type: textarea
-    id: reproduction-steps
+    id: steps-to-reproduce
     attributes:
-      label: "Steps to Reproduce"
-      description: "Provide a numbered list of steps to reproduce the issue."
+      label: "🔁 Steps to Reproduce"
+      description: "How can we recreate the issue? Use a numbered list."
       placeholder: |
-        1. Launch the game
-        2. Click 'Play' on version x.x.x
-        3. Observe the crash
+        1. Open the launcher
+        2. Select version x.x.x
+        3. Click 'Play'
+        4. Observe crash during loading
     validations:
       required: true
 
   - type: textarea
     id: expected-behavior
     attributes:
-      label: "Expected Behavior"
-      description: "Describe what you expected to happen."
-      placeholder: "e.g. The game should launch and display the main menu."
+      label: "✅ Expected Behavior"
+      description: "What did you expect to happen instead?"
+      placeholder: "Example: The game loads normally and reaches the main menu."
     validations:
       required: true
 
   - type: textarea
+    id: actual-behavior
+    attributes:
+      label: "❌ Actual Behavior (Optional)"
+      description: "If different from above, describe what actually happened in more detail."
+
+  - type: textarea
     id: screenshots
     attributes:
-      label: "Screenshots"
-      description: "Upload any relevant screenshots (optional)."
-      placeholder: "Attach files by dragging and dropping them here."
+      label: "📷 Screenshots / Media (Optional)"
+      description: "Drag and drop or paste screenshots or logs here."
+      placeholder: "You can paste screenshots or upload logs here."
 
   - type: input
-    id: version
+    id: modpack-version
     attributes:
-      label: "Modpack Version"
+      label: "🧪 Modpack Version"
       description: "Which version of the modpack were you using?"
-      placeholder: "e.g. v1.2.3"
+      placeholder: "Example: v1.3.0-pre2"
     validations:
       required: true
 
   - type: dropdown
-    id: operating-system
+    id: os
     attributes:
-      label: "Operating System(s)"
-      description: "Select the OS you're using."
+      label: "💻 Operating System"
       multiple: true
       options:
         - Windows
         - macOS
         - Linux
-        - Other (please describe in 'Additional Context')
+        - Other (explain in 'Additional Context')
     validations:
       required: true
 
   - type: dropdown
-    id: cpu-architecture
+    id: cpu
     attributes:
-      label: "CPU Architecture(s)"
-      description: "Select your CPU architecture."
+      label: "🧠 CPU Architecture"
       multiple: true
       options:
-        - I don't know
         - x86_64
-        - arm64/aarch64
         - arm64 (Apple Silicon)
-        - armhf/arm32
+        - armhf (32-bit ARM)
         - Intel processor
         - AMD processor
         - Apple CPU
-        - Other (please describe in 'Additional Context')
+        - I don't know
+        - Other (explain in 'Additional Context')
 
   - type: dropdown
     id: gpu
     attributes:
-      label: "GPU(s)"
-      description: "Select your GPU or graphics solution."
+      label: "🎮 Graphics Card (GPU)"
       multiple: true
       options:
-        - I don't know
+        - NVIDIA
+        - AMD
+        - Intel
+        - Apple GPU
         - No GPU
-        - NVIDIA GPU
-        - AMD GPU
-        - Intel GPU
-        - Other (please describe in 'Additional Context')
+        - I don't know
+        - Other (explain in 'Additional Context')
 
   - type: input
     id: crash-report
     attributes:
-      label: "Relevant Crash Report"
-      description: "If a crash report was generated, upload it to https://mclo.gs and paste the link here."
+      label: "🧾 Crash Report (if available)"
+      description: "Paste the link to your crash report (upload to https://mclo.gs)."
+      placeholder: "Example: https://mclo.gs/abc123"
 
   - type: textarea
     id: additional-context
     attributes:
-      label: "Additional Context"
-      description: "Add any other context about the problem here."
-      placeholder: "e.g. Java version, amount of allocated RAM, recent changes, etc."
+      label: "🧩 Additional Context (Optional)"
+      description: "Include any other information that might help (RAM allocated, Java version, recent mod changes, etc.)."
