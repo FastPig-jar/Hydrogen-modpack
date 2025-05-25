@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Help us improve the modpack by suggesting new mods or configuration changes.
+        Help me improve the modpack by suggesting new mods or configuration changes.
         Please select the type of request and fill in only the relevant fields.
 
   - type: dropdown
@@ -25,31 +25,25 @@ body:
     attributes:
       label: "🧩 Mod Name"
       description: "If suggesting a new mod, provide its name here. Leave blank if not applicable."
-      placeholder: "Example: Xaero’s Minimap"
+      placeholder: ""
 
   - type: textarea
     id: new-mod-description
     attributes:
-      label: "📦 Mod Description"
+      label: "📦 Why sould it be added?"
       description: "Describe the purpose and benefits of the suggested mod. Leave blank if not applicable."
-      placeholder: "Example: Adds a minimap to help players navigate and find waypoints."
+      placeholder: ""
 
+  - type: input
+    id: mod-name
+    attributes:
+      label: "🧩 Mod Name"
+      description: "If suggesting a mod config change, provide its name here. Leave blank if not applicable."
+      placeholder: ""
+      
   - type: textarea
     id: config-change-description
     attributes:
       label: "⚙️ Config Change Description"
       description: "Describe the configuration change you are suggesting. Leave blank if not applicable."
-      placeholder: "Example: Enable keepInventory to make exploration less punishing."
-
-  - type: dropdown
-    id: modpack-version
-    attributes:
-      label: "🧪 Modpack Version"
-      description: "Which version of the modpack are you referring to?"
-      options:
-        - Latest
-        - Previous
-        - Not version-specific
-      default: 0
-    validations:
-      required: true
+      placeholder: ""
