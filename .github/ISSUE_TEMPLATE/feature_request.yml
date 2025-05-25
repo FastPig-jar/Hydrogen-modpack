@@ -7,32 +7,42 @@ body:
     attributes:
       value: |
         Help us improve the modpack by suggesting features!
-        Please describe your idea as clearly and completely as possible. Thank you!
+        Please choose the type of request and provide details. Thanks!
 
-  - type: textarea
-    id: feature-description
+  - type: dropdown
+    id: type-of-request
     attributes:
-      label: "📝 Feature Description"
-      description: "What would you like to see added or improved? Describe the feature clearly and concisely."
-      placeholder: "Example: Add a minimap mod for easier navigation."
+      label: "📌 Type of Request"
+      description: "Is it a new mod suggestion or a configuration change?"
+      options:
+        - "New Mod"
+        - "Config Change"
     validations:
       required: true
 
   - type: textarea
-    id: feature-benefits
+    id: new-mod-description
     attributes:
-      label: "🎯 Purpose / Benefits"
-      description: "Why do you think this feature is useful? How would it improve the modpack?"
-      placeholder: "Example: A minimap helps players navigate and explore more efficiently."
+      label: "🧩 New Mod Suggestion"
+      description: "Describe the mod you'd like to add, and why it's useful."
+      placeholder: "Example: Add Xaero’s Minimap to help with navigation."
     validations:
       required: true
+    when:
+      id: type-of-request
+      value: "New Mod"
 
   - type: textarea
-    id: feature-implementation
+    id: config-change-description
     attributes:
-      label: "🛠️ Possible Implementation (Optional)"
-      description: "If you have an idea how this could be added (specific mods, config tweaks, etc.), describe it here."
-      placeholder: "Example: Add Xaero's Minimap or Journeymap with waypoints enabled."
+      label: "⚙️ Config Change Suggestion"
+      description: "Describe the configuration change you propose and its benefits."
+      placeholder: "Example: Enable vein mining for iron ore to improve early-game mining."
+    validations:
+      required: true
+    when:
+      id: type-of-request
+      value: "Config Change"
 
   - type: dropdown
     id: modpack-version
@@ -46,10 +56,3 @@ body:
       default: 0
     validations:
       required: true
-
-  - type: textarea
-    id: additional-context
-    attributes:
-      label: "🧩 Additional Context (Optional)"
-      description: "Include any other information, links, or notes that might help us understand the request."
-      placeholder: "Examples: mod links, related screenshots, comparisons with other modpacks, etc."
