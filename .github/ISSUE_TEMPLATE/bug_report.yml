@@ -12,7 +12,7 @@ body:
   - type: textarea
     id: bug-description
     attributes:
-      label: "📝 Bug Description"
+      label: "Bug Description"
       description: "What happened? Describe the issue clearly and concisely."
       placeholder: "Example: When launching version x.x.x, the game crashes after the loading screen."
     validations:
@@ -21,7 +21,7 @@ body:
   - type: textarea
     id: steps-to-reproduce
     attributes:
-      label: "🔁 Steps to Reproduce"
+      label: "Steps to Reproduce"
       description: "How can we recreate the issue? Use a numbered list."
       placeholder: |
         1. Open the launcher
@@ -34,7 +34,7 @@ body:
   - type: textarea
     id: expected-behavior
     attributes:
-      label: "✅ Expected Behavior"
+      label: "Expected Behavior"
       description: "What did you expect to happen instead?"
       placeholder: "Example: The game loads normally and reaches the main menu."
     validations:
@@ -43,7 +43,7 @@ body:
   - type: textarea
     id: actual-behavior
     attributes:
-      label: "❌ Actual Behavior (Optional)"
+      label: "Actual Behavior (Optional)"
       description: "If different from above, describe what actually happened in more detail."
 
   - type: textarea
@@ -56,7 +56,7 @@ body:
   - type: input
     id: modpack-version
     attributes:
-      label: "🧪 Modpack Version"
+      label: "Modpack Version"
       description: "Which version of the modpack were you using?"
       placeholder: "x.x.x"
     validations:
@@ -65,7 +65,7 @@ body:
   - type: dropdown
     id: os
     attributes:
-      label: "💻 Operating System"
+      label: "Operating System"
       multiple: true
       options:
         - Windows
@@ -78,7 +78,7 @@ body:
   - type: dropdown
     id: cpu
     attributes:
-      label: "🧠 CPU Architecture"
+      label: "CPU Architecture"
       multiple: true
       options:
         - x86_64
@@ -93,7 +93,7 @@ body:
   - type: dropdown
     id: gpu
     attributes:
-      label: "🎮 Graphics Card (GPU)"
+      label: "Graphics Card (GPU)"
       multiple: true
       options:
         - NVIDIA
@@ -107,12 +107,12 @@ body:
   - type: input
     id: crash-report
     attributes:
-      label: "🧾 Crash Report (if available)"
+      label: "Crash Report (if available)"
       description: "Paste the link to your crash report (upload to https://mclo.gs)."
       placeholder: "Example: https://mclo.gs/abc123"
 
   - type: textarea
     id: additional-context
     attributes:
-      label: "🧩 Additional Context (Optional)"
+      label: "Additional Context (Optional)"
       description: "Include any other information that might help (RAM allocated, Java version, recent mod changes, etc.)."
