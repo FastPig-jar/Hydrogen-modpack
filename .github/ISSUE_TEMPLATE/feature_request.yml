@@ -6,33 +6,40 @@ body:
   - type: markdown
     attributes:
       value: |
-        Help us improve the modpack by suggesting features or improvements.
-        Please select the type of request and fill in the matching section only.
+        Help us improve the modpack by suggesting new mods or configuration changes.
+        Please select the type of request and fill in only the relevant fields.
 
   - type: dropdown
     id: type-of-request
     attributes:
       label: "📌 Type of Request"
-      description: "Is it a new mod suggestion or a configuration change?"
+      description: "Are you suggesting a new mod or a config change?"
       options:
         - New Mod
         - Config Change
     validations:
       required: true
 
+  - type: input
+    id: mod-name
+    attributes:
+      label: "🧩 Mod Name"
+      description: "If suggesting a new mod, provide its name here. Leave blank if not applicable."
+      placeholder: "Example: Xaero’s Minimap"
+
   - type: textarea
     id: new-mod-description
     attributes:
-      label: "🧩 New Mod Suggestion"
-      description: "If you're suggesting a new mod, describe it and explain why you think it should be added. Leave this blank if not applicable."
-      placeholder: "Example: Add Xaero’s Minimap to help with navigation."
+      label: "📦 Mod Description"
+      description: "Describe the purpose and benefits of the suggested mod. Leave blank if not applicable."
+      placeholder: "Example: Adds a minimap to help players navigate and find waypoints."
 
   - type: textarea
     id: config-change-description
     attributes:
-      label: "⚙️ Config Change Suggestion"
-      description: "If you're suggesting a configuration change, explain the change and why it's helpful. Leave this blank if not applicable."
-      placeholder: "Example: Enable keepInventory in config for easier exploration."
+      label: "⚙️ Config Change Description"
+      description: "Describe the configuration change you are suggesting. Leave blank if not applicable."
+      placeholder: "Example: Enable keepInventory to make exploration less punishing."
 
   - type: dropdown
     id: modpack-version
@@ -46,10 +53,3 @@ body:
       default: 0
     validations:
       required: true
-
-  - type: textarea
-    id: additional-context
-    attributes:
-      label: "🔗 Additional Context (Optional)"
-      description: "Links to mod pages, videos, or more info that help explain your request."
-      placeholder: "Example: https://modrinth.com/mod/xaeros-minimap"
