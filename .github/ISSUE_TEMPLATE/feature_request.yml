@@ -21,29 +21,29 @@ body:
       required: true
 
   - type: input
-    id: mod-name
+    id: mod-name-new
     attributes:
-      label: "🧩 Mod Name"
-      description: "If suggesting a new mod, provide its name here. Leave blank if not applicable."
+      label: "🧩 Mod Name (Only for New Mods)"
+      description: "If suggesting a new mod, provide its name here. Leave blank otherwise."
       placeholder: ""
 
   - type: textarea
     id: new-mod-description
     attributes:
-      label: "📦 Why sould it be added?"
-      description: "Describe the purpose and benefits of the suggested mod. Leave blank if not applicable."
+      label: "📦 Why should it be added?"
+      description: "Describe the purpose and benefits of the suggested mod. Leave blank otherwise."
       placeholder: ""
 
   - type: input
-    id: mod-name
+    id: mod-name-config
     attributes:
-      label: "🧩 Mod Name"
-      description: "If suggesting a mod config change, provide its name here. Leave blank if not applicable."
+      label: "🛠️ Mod Name (Only for Config Change)"
+      description: "If suggesting a config change, provide the mod's name. Leave blank otherwise."
       placeholder: ""
-      
+
   - type: textarea
     id: config-change-description
     attributes:
       label: "⚙️ Config Change Description"
-      description: "Describe the configuration change you are suggesting. Leave blank if not applicable."
+      description: "Describe the configuration change you're suggesting. Leave blank otherwise."
       placeholder: ""
