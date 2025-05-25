@@ -41,5 +41,5 @@ body:
   - type: textarea
     id: config-change-description
     attributes:
-      label: "⚙ Config Change Description"
+      label: "Config Change Description"
       description: "Describe the configuration change you're suggesting. Leave blank otherwise."
