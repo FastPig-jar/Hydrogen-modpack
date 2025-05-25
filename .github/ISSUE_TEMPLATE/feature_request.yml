@@ -25,7 +25,6 @@ body:
     attributes:
       label: "🧩 Mod Name (Only for New Mods)"
       description: "If suggesting a new mod, provide its name here. Leave blank otherwise."
-      placeholder: "Example: JourneyMap"
 
   - type: textarea
     id: new-mod-description
