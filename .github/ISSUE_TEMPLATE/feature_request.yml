@@ -1,13 +1,13 @@
 name: "✨ Feature Request"
-description: "Suggest a new feature or improvement for the modpack."
+description: "Suggest a new mod or config change for the modpack."
 title: "[Feature] <short description>"
 labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
       value: |
-        Help us improve the modpack by suggesting features!
-        Please choose the type of request and provide details. Thanks!
+        Help us improve the modpack by suggesting features or improvements.
+        Please select the type of request and fill in the matching section only.
 
   - type: dropdown
     id: type-of-request
@@ -15,8 +15,8 @@ body:
       label: "📌 Type of Request"
       description: "Is it a new mod suggestion or a configuration change?"
       options:
-        - "New Mod"
-        - "Config Change"
+        - New Mod
+        - Config Change
     validations:
       required: true
 
@@ -24,25 +24,15 @@ body:
     id: new-mod-description
     attributes:
       label: "🧩 New Mod Suggestion"
-      description: "Describe the mod you'd like to add, and why it's useful."
+      description: "If you're suggesting a new mod, describe it and explain why you think it should be added. Leave this blank if not applicable."
       placeholder: "Example: Add Xaero’s Minimap to help with navigation."
-    validations:
-      required: true
-    when:
-      id: type-of-request
-      value: "New Mod"
 
   - type: textarea
     id: config-change-description
     attributes:
       label: "⚙️ Config Change Suggestion"
-      description: "Describe the configuration change you propose and its benefits."
-      placeholder: "Example: Enable vein mining for iron ore to improve early-game mining."
-    validations:
-      required: true
-    when:
-      id: type-of-request
-      value: "Config Change"
+      description: "If you're suggesting a configuration change, explain the change and why it's helpful. Leave this blank if not applicable."
+      placeholder: "Example: Enable keepInventory in config for easier exploration."
 
   - type: dropdown
     id: modpack-version
@@ -56,3 +46,10 @@ body:
       default: 0
     validations:
       required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: "🔗 Additional Context (Optional)"
+      description: "Links to mod pages, videos, or more info that help explain your request."
+      placeholder: "Example: https://modrinth.com/mod/xaeros-minimap"
