@@ -12,7 +12,7 @@ body:
   - type: dropdown
     id: type-of-request
     attributes:
-      label: "📌 Type of Request"
+      label: "Type of Request"
       description: "Are you suggesting a new mod or a config change?"
       options:
         - New Mod
@@ -23,26 +23,23 @@ body:
   - type: input
     id: mod-name-new
     attributes:
-      label: "🧩 Mod Name (Only for New Mods)"
+      label: "Mod Name (Only for New Mods)"
       description: "If suggesting a new mod, provide its name here. Leave blank otherwise."
 
   - type: textarea
     id: new-mod-description
     attributes:
-      label: "📦 Why should it be added?"
+      label: "Why should it be added?"
       description: "Describe the purpose and benefits of the suggested mod. Leave blank otherwise."
-      placeholder: "Example: Adds a minimap for easier navigation."
 
   - type: input
     id: mod-name-config
     attributes:
-      label: "🛠️ Mod Name (Only for Config Change)"
+      label: "Mod Name (Only for Config Change)"
       description: "If suggesting a config change, provide the mod's name. Leave blank otherwise."
-      placeholder: "Example: FTB Chunks"
 
   - type: textarea
     id: config-change-description
     attributes:
-      label: "⚙️ Config Change Description"
+      label: "⚙ Config Change Description"
       description: "Describe the configuration change you're suggesting. Leave blank otherwise."
-      placeholder: "Example: Change the claim limit from 100 to 250 chunks."
