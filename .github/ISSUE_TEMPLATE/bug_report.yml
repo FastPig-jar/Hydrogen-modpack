@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Please fill out this form as clearly and completely as possible.
-        This helps us identify and fix bugs faster. Thank you!
+        This helps me identify and fix bugs faster. Thank you!
 
   - type: textarea
     id: bug-description
