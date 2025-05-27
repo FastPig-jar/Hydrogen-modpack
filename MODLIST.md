@@ -1,4 +1,3 @@
-  
 - [alternate current](https://modrinth.com/mod/alternate-current)
 - [bad optimizations](https://modrinth.com/mod/badoptimizations)
 - [bobby](https://modrinth.com/mod/bobby)
@@ -25,7 +24,7 @@
 - [no telemetry](https://modrinth.com/mod/no-telemetry)
 - [particle core](https://modrinth.com/mod/particle-core)
 - [resourcify](https://modrinth.com/mod/resourcify)
-- [scalable lux](https://modrinth.com/mod/scalablelux)
+- [scalablelux](https://modrinth.com/mod/scalablelux) / [starlight](https://modrinth.com/mod/starlight/versions)
 - [servercore](https://modrinth.com/mod/servercore)
 - [server pinger fixer](https://modrinth.com/mod/serverpingerfixer)
 - [threadtweak](https://modrinth.com/mod/threadtweak)
