@@ -1,5 +1,5 @@
-name: OS Compatibility Request
-description: Request compatibility check or support for a specific operating system.
+name: OS Compatibility Ticket
+description: Show an icompatible OS to be added to the list.
 title: "[OS Compatibility Request] "
 labels: [compatibility]
 assignees: []
