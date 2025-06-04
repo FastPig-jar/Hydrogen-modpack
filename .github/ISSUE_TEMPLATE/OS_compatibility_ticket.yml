@@ -14,23 +14,14 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: os-description
-    attributes:
-      label: 📝 Additional Details (Optional)
-      description: Include any specific details about your OS, system configuration, or environment that might be helpful.
-      placeholder: e.g. Running in a virtual machine, using Wayland instead of X11, etc.
-    validations:
-      required: false
 
   - type: input
     id: video-link
     attributes:
-      label: 📹 Video Link (Optional)
-      description: If you have a video demonstrating the issue or successful launch, include the link here (e.g. YouTube, Streamable, etc.).
+      label: 📹 Video Link 
       placeholder: e.g. https://youtu.be/example
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: anything-else
