@@ -10,7 +10,6 @@ body:
     attributes:
       label: 🖥️ Operating System Name
       description: Enter the full name and version of the operating system (e.g. Windows 10 22H2, Ubuntu 24.04, etc.)
-      placeholder: e.g. Fedora 40 Workstation
     validations:
       required: true
 
@@ -19,7 +18,7 @@ body:
     id: video
     attributes:
       label: 📹 Video Link 
-      placeholder: e.g. https://youtu.be/example
+      placeholder: you can also put a link
     validations:
       required: true
 
@@ -27,7 +26,6 @@ body:
     id: anything-else
     attributes:
       label: 💬 Anything Else? (Optional)
-      description: Add any other notes, suggestions, or logs you’d like to share.
       placeholder: Optional but helpful!
     validations:
       required: false
