@@ -15,7 +15,7 @@ Use the [Issues tab](https://github.com/FastPig-jar/Hydrogen-modpack/issues) to 
 ## 🔗 Links
 - [Modrinth Project](https://modrinth.com/modpack/hydrogen.)
 - [Mod List](MODLIST.md)
-- [Vulkan incompatible mods list (Discord)](https://github.com/xCollateral/VulkanMod/wiki/Incompatible-mods)
+- [Vulkan incompatible mods list](https://github.com/xCollateral/VulkanMod/wiki/Incompatible-mods)
 
 ## 📜 License
 This modpack aggregates open mods with their own licenses. Respect each mod's original license found on their respective Modrinth pages.
