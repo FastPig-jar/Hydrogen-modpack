@@ -1,0 +1,42 @@
+name: OS Compatibility Request
+description: Request compatibility check or support for a specific operating system.
+title: "[OS Compatibility Request] "
+labels: [compatibility]
+assignees: []
+
+body:
+  - type: input
+    id: os-name
+    attributes:
+      label: 🖥️ Operating System Name
+      description: Enter the full name and version of the operating system (e.g. Windows 10 22H2, Ubuntu 24.04, etc.)
+      placeholder: e.g. Fedora 40 Workstation
+    validations:
+      required: true
+
+  - type: textarea
+    id: os-description
+    attributes:
+      label: 📝 Additional Details (Optional)
+      description: Include any specific details about your OS, system configuration, or environment that might be helpful.
+      placeholder: e.g. Running in a virtual machine, using Wayland instead of X11, etc.
+    validations:
+      required: false
+
+  - type: input
+    id: video-link
+    attributes:
+      label: 📹 Video Link (Optional)
+      description: If you have a video demonstrating the issue or successful launch, include the link here (e.g. YouTube, Streamable, etc.).
+      placeholder: e.g. https://youtu.be/example
+    validations:
+      required: false
+
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: 💬 Anything Else? (Optional)
+      description: Add any other notes, suggestions, or logs you’d like to share.
+      placeholder: Optional but helpful!
+    validations:
+      required: false
