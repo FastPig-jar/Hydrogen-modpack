@@ -1,6 +1,6 @@
 # 🖥️ Modpack Compatibility
 
-This file lists the operating systems that are or aren't **compatible** with the modpack.
+This file lists the operating systems that are or aren't **compatible** with the modpack, this list only counts desktop OSes.
 
 ---
 
@@ -15,7 +15,7 @@ The following operating systems have been **confirmed to work** with the modpack
 
 ---
 
-## ❌ Unsupported / Incompatible Operating Systems
+## ❌ Incompatible Operating Systems
 
 These operating systems are **not supported**, or have **critical issues** running the modpack:
 
