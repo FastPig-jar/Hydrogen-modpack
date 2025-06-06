@@ -24,7 +24,7 @@
 - [no telemetry](https://modrinth.com/mod/no-telemetry)
 - [particle core](https://modrinth.com/mod/particle-core)
 - [resourcify](https://modrinth.com/mod/resourcify)
-- [scalablelux](https://modrinth.com/mod/scalablelux)
+- [scalablelux](https://modrinth.com/mod/scalablelux) / [starlight](https://modrinth.com/mod/starlight)
 - [servercore](https://modrinth.com/mod/servercore)
 - [server pinger fixer](https://modrinth.com/mod/serverpingerfixer)
 - [threadtweak](https://modrinth.com/mod/threadtweak)
