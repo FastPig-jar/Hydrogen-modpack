@@ -28,7 +28,7 @@
 - [servercore](https://modrinth.com/mod/servercore)
 - [server pinger fixer](https://modrinth.com/mod/serverpingerfixer)
 - [threadtweak](https://modrinth.com/mod/threadtweak)
-- [very many players](https://modrinth.com/mod/vmp-fabric)
+- [very many players](https://modrinth.com/mod/vmp-fabric) disabled beacause of slight performance loss on singleplayer world
 - [VulkanMod](https://modrinth.com/mod/vulkanmod)
 - [Zoomify](https://modrinth.com/mod/zoomify)
 
