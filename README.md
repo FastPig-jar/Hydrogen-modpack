@@ -13,7 +13,7 @@ It includes powerful performance mods, visual optimizations, and quality-of-life
 Use the [Issues tab](https://github.com/FastPig-jar/Hydrogen-modpack/issues) to report bugs.
 
 ## 🔗 Links
-- [Modrinth Project](https://modrinth.com/modpack/hydrogen.)
+- [Modrinth Project](https://modrinth.com/modpack/hydrogenpack)
 - [Mod List](MODLIST.md)
 - [Vulkan incompatible mods list](https://github.com/xCollateral/VulkanMod/wiki/Incompatible-mods)
 
