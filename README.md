@@ -7,7 +7,6 @@ It includes powerful performance mods, visual optimizations, and quality-of-life
 - Boosted performance without changing core vanilla mechanics
 - Enhanced rendering and chunk management
 - Utility mods like Full Brightness Toggle, Clean F3, Zoom
-- Designed for compatibility with servers and vanilla gameplay
 - Easly play with your frinds using [e4mc](https://modrinth.com/mod/e4mc)!
 
 ## ❗ Bug Reports
