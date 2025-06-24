@@ -1,4 +1,4 @@
-name: "Feature Request"
+name: "Feature Request / Version request"
 description: "Suggest a new mod or config change for the modpack."
 title: "[Feature] <short description>"
 labels: ["enhancement"]
@@ -17,6 +17,7 @@ body:
       options:
         - New Mod
         - Config Change
+        - version request
     validations:
       required: true
 
@@ -43,3 +44,9 @@ body:
     attributes:
       label: "Config Change Description"
       description: "Describe the configuration change you're suggesting. Leave blank otherwise."
+
+
+  - type: input
+    id: version-request
+    attributes:
+      label: "Version request (for version request only)"
