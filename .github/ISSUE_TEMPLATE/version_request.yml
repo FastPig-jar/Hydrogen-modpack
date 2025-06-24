@@ -9,6 +9,6 @@ body:
   - type: input
     id: version
     attributes:
-      label: version
+      label: Version
     validations:
       required: true
