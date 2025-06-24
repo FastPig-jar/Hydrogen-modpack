@@ -20,6 +20,9 @@ The following operating systems have been **confirmed to work** with the modpack
 These operating systems are **not supported**, or have **critical issues** running the modpack:
 
 - **macOS 12 and earlier**
+- **Windows XP / Vista**
+- **Any 32‑bit linux distro**
+- **Linux kernels older than 3.0**
 
 ---
 
