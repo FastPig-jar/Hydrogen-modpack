@@ -49,4 +49,4 @@ body:
   - type: input
     id: version-request
     attributes:
-      label: "Version request (for version request only)"
+      label: "Version request (Only for version request)"
