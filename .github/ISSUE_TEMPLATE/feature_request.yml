@@ -23,7 +23,7 @@ body:
   - type: input
     id: mod-name-new
     attributes:
-      label: "Mod Name (Only for New Mods)"
+      label: "Mod Name (Only for New Mod)"
       description: "If suggesting a new mod, provide its name here. Leave blank otherwise."
 
   - type: textarea
