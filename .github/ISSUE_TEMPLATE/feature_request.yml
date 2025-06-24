@@ -1,4 +1,4 @@
-name: "✨ Feature Request"
+name: "Feature Request"
 description: "Suggest a new mod or config change for the modpack."
 title: "[Feature] <short description>"
 labels: ["enhancement"]
