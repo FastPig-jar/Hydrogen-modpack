@@ -1,0 +1,14 @@
+name: Version request
+description: request a version for the modpack
+title: "[OS Compatibility Request] "
+labels: [compatibility]
+assignees: []
+
+body:
+
+  - type: input
+    id: version
+    attributes:
+      label: version
+    validations:
+      required: true
