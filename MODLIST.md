@@ -23,12 +23,12 @@
 - [noisium](https://modrinth.com/mod/noisium)
 - [no telemetry](https://modrinth.com/mod/no-telemetry)
 - [particle core](https://modrinth.com/mod/particle-core)
-- [resourcify](https://modrinth.com/mod/resourcify) 1.7.3 incompatible with vulkanmod (could get removed soon)
+- [resourcify](https://modrinth.com/mod/resourcify) -> [DISABLED_MODS.md](DISABLED_MODS.md)
 - [scalablelux](https://modrinth.com/mod/scalablelux) / [starlight](https://modrinth.com/mod/starlight)
 - [servercore](https://modrinth.com/mod/servercore)
 - [server pinger fixer](https://modrinth.com/mod/serverpingerfixer)
 - [threadtweak](https://modrinth.com/mod/threadtweak)
-- [very many players](https://modrinth.com/mod/vmp-fabric) disabled beacause of slight performance loss on singleplayer world
+- [very many players](https://modrinth.com/mod/vmp-fabric) -> [DISABLED_MODS.md](DISABLED_MODS.md)
 - [VulkanMod](https://modrinth.com/mod/vulkanmod)
 - [Zoomify](https://modrinth.com/mod/zoomify)
 
