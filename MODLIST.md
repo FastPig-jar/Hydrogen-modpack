@@ -38,7 +38,6 @@
 - [collective](https://modrinth.com/mod/collective)
 - [fabric api](https://modrinth.com/mod/fabric-api)
 - [fabric-language-kotlin](https://modrinth.com/mod/fabric-language-kotlin)
-- [ForgeConfigAPIPort](https://modrinth.com/mod/forge-config-api-port)
 - [fzzy config](https://modrinth.com/mod/fzzy-config)
 - [midnightlib](https://modrinth.com/mod/midnightlib)
 - [placeholder api](https://modrinth.com/mod/placeholder-api)
