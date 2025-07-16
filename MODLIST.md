@@ -43,5 +43,5 @@
 ###  resource packs  ###
 - [eating animation](https://modrinth.com/resourcepack/eating-animation-resource-pack) (only after 1.21.3)
 - [low on fire](https://modrinth.com/resourcepack/low-on-fire)
-- [low shield pack](https://modrinth.com/resourcepack/low-shield-pack)
+- [low shield](https://modrinth.com/resourcepack/low-shield-pack)
 - [vulkanmod translations](https://modrinth.com/resourcepack/vulkanmod-translations)
