@@ -15,4 +15,4 @@ Use the [Issues tab](https://github.com/FastPig-jar/Hydrogen-modpack/issues) to 
 ## 🔗 Links
 - [Modrinth Project](https://modrinth.com/modpack/hydrogenpack)
 - [Mod List](MODLIST.md)
-- [Vulkan incompatible mods list](https://github.com/xCollateral/VulkanMod/wiki/Incompatible-mods)
+- [Vulkan Github](https://github.com/xCollateral/VulkanMod/)
