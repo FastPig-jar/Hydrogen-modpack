@@ -4,10 +4,10 @@ Hydrogen is a Fabric-based optimization modpack built for smooth, efficient, and
 It includes powerful performance mods, visual optimizations, and quality-of-life improvements.
 
 ## 🧩 Features
-- Boosted performance without changing core vanilla mechanics
-- Enhanced rendering and chunk management
-- Utility mods like Full Brightness Toggle, Clean F3, Zoom
-- Easly play with your frinds using [e4mc](https://modrinth.com/mod/e4mc)!
+- New and faster render engine.
+- Telemetry disabled.
+- Quality of life mods.
+- Easly transform singleplayer world in multiplayer.
 
 ## ❗ Bug Reports
 Use the [Issues tab](https://github.com/FastPig-jar/Hydrogen-modpack/issues) to report bugs.
@@ -15,4 +15,4 @@ Use the [Issues tab](https://github.com/FastPig-jar/Hydrogen-modpack/issues) to 
 ## 🔗 Links
 - [Modrinth Project](https://modrinth.com/modpack/hydrogenpack)
 - [Mod List](MODLIST.md)
-- [Vulkan Github](https://github.com/xCollateral/VulkanMod/)
+- [VulkanMod Github](https://github.com/xCollateral/VulkanMod/)
