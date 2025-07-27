@@ -1,6 +1,6 @@
 # Hydrogen
 
-Hydrogen is a Fabric-based optimization modpack built for smooth, efficient, and enhanced Minecraft gameplay in both singleplayer and multiplayer.  
+Hydrogen is a Fabric-based optimization modpack built for smooth, efficient, and enhanced Minecraft gameplay in singleplayer.  
 It includes powerful performance mods, visual optimizations, and quality-of-life improvements.
 
 ## 🧩 Features
