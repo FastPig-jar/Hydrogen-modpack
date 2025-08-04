@@ -22,7 +22,6 @@
 - [moreculling](https://modrinth.com/mod/moreculling)
 - [noisium](https://modrinth.com/mod/noisium)
 - [no telemetry](https://modrinth.com/mod/no-telemetry)
-- [particle core](https://modrinth.com/mod/particle-core)
 - [scalablelux](https://modrinth.com/mod/scalablelux) / [starlight](https://modrinth.com/mod/starlight)
 - [servercore](https://modrinth.com/mod/servercore)
 - [server pinger fixer](https://modrinth.com/mod/serverpingerfixer)
