@@ -16,3 +16,8 @@ Use the [Issues tab](https://github.com/FastPig-jar/Hydrogen-modpack/issues) to 
 - [Modrinth Project](https://modrinth.com/modpack/hydrogenpack)
 - [Mod List](MODLIST.md)
 - [VulkanMod Github](https://github.com/xCollateral/VulkanMod/)
+
+## ❓ Q&A
+Q: When the modpack will be updated to 1.XX.X?
+
+A: This modpack is based around [VulkanMod](https://modrinth.com/mod/vulkanmod), if the mod isn't updated to the latest version of Minecraft that also the modpack will not be updated.
