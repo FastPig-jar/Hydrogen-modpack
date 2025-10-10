@@ -14,7 +14,7 @@
 - [fps display](https://modrinth.com/mod/fps-display)
 - [full brightness toggle](https://modrinth.com/mod/full-brightness-toggle)
 - [krypton](https://modrinth.com/mod/krypton)
-- [ksyxis](https://modrinth.com/mod/ksyxis)
+- [ksyxis](https://modrinth.com/mod/ksyxis) (only before 1.21.9)
 - [lithium](https://modrinth.com/mod/lithium)
 - [modernfix](https://modrinth.com/mod/modernfix)
 - [modmenu](https://modrinth.com/mod/modmenu)
