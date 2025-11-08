@@ -10,6 +10,7 @@
 - [e4mc](https://modrinth.com/mod/e4mc)
 - [fastquit](https://modrinth.com/mod/fastquit)
 - [ferritecore](https://modrinth.com/mod/ferrite-core)
+- [GPUBooster](https://modrinth.com/mod/gputape)
 - [kennytvs-epic-force-close-loading-screen-mod-for-fabric](https://modrinth.com/mod/forcecloseworldloadingscreen)
 - [fps display](https://modrinth.com/mod/fps-display)
 - [full brightness toggle](https://modrinth.com/mod/full-brightness-toggle)
@@ -28,7 +29,6 @@
 - [threadtweak](https://modrinth.com/mod/threadtweak)
 - [VulkanMod](https://modrinth.com/mod/vulkanmod)
 - [Zoomify](https://modrinth.com/mod/zoomify)
-- [GPUBooster](https://modrinth.com/mod/gputape)
 
 ###  dependencies ###
 - [cloth config](https://modrinth.com/mod/cloth-config)
