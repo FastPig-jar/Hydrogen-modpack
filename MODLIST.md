@@ -28,6 +28,7 @@
 - [threadtweak](https://modrinth.com/mod/threadtweak)
 - [VulkanMod](https://modrinth.com/mod/vulkanmod)
 - [Zoomify](https://modrinth.com/mod/zoomify)
+- [GPUBooster](https://modrinth.com/mod/gputape)
 
 ###  dependencies ###
 - [cloth config](https://modrinth.com/mod/cloth-config)
