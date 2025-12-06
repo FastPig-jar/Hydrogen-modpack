@@ -10,7 +10,7 @@
 - [e4mc](https://modrinth.com/mod/e4mc)
 - [fastquit](https://modrinth.com/mod/fastquit)
 - [ferritecore](https://modrinth.com/mod/ferrite-core)
-- [GPUBooster](https://modrinth.com/mod/gputape)
+- [GPUBooster](https://modrinth.com/mod/gputape) (only version 1.0.5.1, versions 1.1.0+ are incompatibe)
 - [kennytvs-epic-force-close-loading-screen-mod-for-fabric](https://modrinth.com/mod/forcecloseworldloadingscreen)
 - [fps display](https://modrinth.com/mod/fps-display)
 - [full brightness toggle](https://modrinth.com/mod/full-brightness-toggle)
