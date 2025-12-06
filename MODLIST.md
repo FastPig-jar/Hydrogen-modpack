@@ -37,7 +37,6 @@
 - [fabric-language-kotlin](https://modrinth.com/mod/fabric-language-kotlin)
 - [fzzy config](https://modrinth.com/mod/fzzy-config)
 - [midnightlib](https://modrinth.com/mod/midnightlib)
-- [placeholder api](https://modrinth.com/mod/placeholder-api)
 - [yet another config lib](https://modrinth.com/mod/yacl)
 
 ###  resource packs  ###
